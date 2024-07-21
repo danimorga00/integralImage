@@ -12,7 +12,7 @@ set(CMAKE_CUDA_STANDARD 12)
 add_executable(integralImage
         integralImage_par.cu
         integralImage_seq.cpp
-        integralImage_par_efficient.cpp
+        integralImage_par_efficient.cu
 )
 
 target_link_libraries(integralImage cudart)
