@@ -13,6 +13,7 @@ add_executable(integralImage
         integralImage_par.cu
         integralImage_seq.cpp
         integralImage_par_efficient.cu
+        scan.cu
 )
 
 target_link_libraries(integralImage cudart)
